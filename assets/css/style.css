@@ -1,0 +1,49 @@
+.header {
+  border-bottom: 1px solid black;
+}
+.header-grid {
+  width: 1276px;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 141px 1fr;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 8;
+
+  text-decoration: none;
+}
+
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  color: #181c29;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 130%;
+  letter-spacing: 5%;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+
+  list-style: none;
+}
+.nav-list li {
+  margin: 12px 20px 12px 20px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #181c29;
+}
